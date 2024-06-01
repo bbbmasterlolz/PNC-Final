@@ -118,7 +118,7 @@ int main(int argc, char *argv[]) {
 								gotoxy(60, 5);
 								pneptune();
 							}
-							inkremen_tanggal(&D, &M, Y);
+							inkremen_tanggal(&D, &M, &Y);
 							
 						}else if(tint==pselanjut){
 							strcpy(sekarang, planet[j+1]);
@@ -136,7 +136,7 @@ int main(int argc, char *argv[]) {
 								gotoxy(60, 5);
 								pneptune();
 							}
-							inkremen_tanggal(&D, &M, Y);
+							inkremen_tanggal(&D, &M, &Y);
 						}else{
 							printf("\e[sTujuan Tidak Ditemukan [!] \e[u\e[B");
 						}
